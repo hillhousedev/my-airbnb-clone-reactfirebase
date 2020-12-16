@@ -9,28 +9,46 @@ function Home() {
             <Banner />
 
             <div className="home__section">
+            
                 <Card 
-                    src="https://media.cntraveler.com/photos/5f5105abad72d4ef60c3a87c/master/w_1600%2Cc_limit/remote-33638284-airbnb.jpg"
-                    description="Unique activities we can do together, led by a world of hosts."
-                    title="Big house"
-                />
-                <Card 
-                    src="https://media.cntraveler.com/photos/5f5105aa42341b4d2fb70a1f/master/w_1600%2Cc_limit/remote-21783133-airbnb.jpg"
+                    src="https://a0.muscache.com/im/pictures/ff69ac49-64e7-4f4a-ae2b-ee01163d0790.jpg?im_w=320"
                     description="A beautiful experience"
-                    title="Wooden Castle"/>
-                <Card 
-                    src="https://media.cntraveler.com/photos/5f510b99ad72d4ef60c3a87e/master/w_1600%2Cc_limit/remote-191013-airbnb.jpeg"
+                    title="Cabins and Cottages"
+                />
+                <Card
+                    src="https://a0.muscache.com/im/pictures/ce6814ba-ed53-4d6e-b8f8-c0bbcf821011.jpg?im_w=320"
                     description="Wholesome scene"
-                    title="Comfort Homes"/>
+                    title="Unique Stays"
+                />
+                <Card
+                    src="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                    description="Wholesome scene"
+                    title="Unique Stays"
+                />
             </div>
+ 
+             <div className="home__section">
+                <Card
+                    src="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                    description="Wholesome scene"
+                    title="Unique Stays"
+                    price="$100/night"
+                />
+                <Card
+                    src="https://a0.muscache.com/im/pictures/ff69ac49-64e7-4f4a-ae2b-ee01163d0790.jpg?im_w=320"
+                    description="A beautiful experience"
+                    title="Cabins and Cottages"
+                    price="$80/night"
+                />
+                <Card
+                    src="https://www.airbnb.com/rooms/27584413"
+                    description="Wholesome scene"
+                    title="Unique Stays"
+                    price="$120/night"
+                />
+             </div>
 
-            <div className="home__section">
-                <Card />
-                <Card />
-                <Card />
-            </div>
-
-        </div>
+         </div> 
     )
 }
 
