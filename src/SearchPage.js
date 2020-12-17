@@ -46,7 +46,51 @@ function SearchPage() {
                 total="$120 total"
 
             />
-            
+
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                location="Private room in center of London"
+                title="House of Comfort"
+                description=" A place to find comfort"
+                star={4.73}
+                price="$50 / night"
+                total="$120 total"
+
+            />
+
+             <SearchResult
+                img="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                location="Private room in center of London"
+                title="House of Comfort"
+                description=" A place to find comfort"
+                star={4.73}
+                price="$50 / night"
+                total="$120 total"
+
+            />
+
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                location="Private room in center of London"
+                title="House of Comfort"
+                description=" A place to find comfort"
+                star={4.73}
+                price="$50 / night"
+                total="$120 total"
+
+            />
+
+            <SearchResult
+                img="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=320"
+                location="Private room in center of London"
+                title="House of Comfort"
+                description=" A place to find comfort"
+                star={4.73}
+                price="$50 / night"
+                total="$120 total"
+
+            />
+
         </div>
     )
 }
