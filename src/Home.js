@@ -41,7 +41,7 @@ function Home() {
                     price="$80/night"
                 />
                 <Card
-                    src="https://www.airbnb.com/rooms/27584413"
+                    src="https://a0.muscache.com/im/pictures/a0316ecb-e49b-4b3a-b6b6-c2876b820e8c.jpg?im_w=320"
                     description="Wholesome scene"
                     title="Unique Stays"
                     price="$120/night"

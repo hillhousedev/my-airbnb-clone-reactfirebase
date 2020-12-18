@@ -8,7 +8,7 @@ function Footer() {
             <p>@ 2020 AirBnB Clone! No rights reserved -
                 Do as you like with it
             </p>
-            <p>Privacy . Terms . Sitemap . Company Details</p>
+            <p>By Adesemoye Olusola</p>
         </div>
     )
 }
