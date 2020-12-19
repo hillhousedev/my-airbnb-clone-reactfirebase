@@ -73,3 +73,53 @@
     right: 30px;
     
 }
+
+@media (max-width: 900px) {
+    .searchResult {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        align-content: center;
+    }
+
+    .searchResult > img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    
+
+    .searchResult__heart {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+
+    .searchResult__infoTop {
+        width: 100vw;
+    }
+
+    .searchResult__infoTop > p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: gray;
+    }
+
+.searchResult__infoTop > h3 {
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+
+.searchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+} 
+

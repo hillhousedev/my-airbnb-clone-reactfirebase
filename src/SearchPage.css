@@ -20,3 +20,10 @@
     margin: 15px;
     
 }
+
+@media (max-width: 900px) {
+    .searchPage__images {
+        display: block;
+        width: 100%;
+    }
+}
