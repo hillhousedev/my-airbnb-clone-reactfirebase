@@ -10,19 +10,22 @@ function SearchPage() {
                     JULY . 2 guest 
                 </p>
                 <h1>Stays nearby</h1>
-                <Button
-                variant="outlined">Cancellation Flexibility
+                <div className="searchPage__buttons">
+                    <Button
+                        variant="outlined">Cancellation Flexibility
                 </Button>
-                <Button variant="outlined">
-                    Type of place
+                    <Button variant="outlined">
+                        Type of place
                 </Button>
-                <Button variant="outlined">
-                    Price
+                    <Button variant="outlined">
+                        Price
                 </Button>
-                <Button variant="outlined">
-                    Rooms and beds
+                    <Button variant="outlined">
+                        Rooms and beds
                 </Button>
-                <Button variant="outlined">More filters</Button>
+                    <Button variant="outlined">More filters</Button>
+                </div>
+               
             </div>
 
             <SearchResult 

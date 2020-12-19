@@ -22,8 +22,30 @@
 }
 
 @media (max-width: 900px) {
-    .searchPage__images {
+
+    
+    .searchPage {
+        
+    }
+    .searchPage__info{
         display: block;
         width: 100%;
+       
+    }
+
+    .searchPage__buttons {
+        display: flex;
+        /* align-content: space-around; */
+        align-items: center;
+        
+        /* flex-direction: row; */
+    }
+
+    .searchPage__buttons > button {
+        margin: 20px;
+        padding: 20px;
+        
+        text-transform: inherit;
+        font-size: 10px;
     }
 }
